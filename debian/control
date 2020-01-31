@@ -1,0 +1,12 @@
+Source: ros-turbulent-rqt-service-caller
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/rqt_service_caller
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rqt-service-caller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-rqt-gui, ros-turbulent-rqt-gui-py, ros-turbulent-rqt-py-common, ros-turbulent-ros-workspace
+Description: rqt_service_caller provides a GUI plugin for calling arbitrary services.
